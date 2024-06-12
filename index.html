@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio personal website</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/sai_logo.jpg" class="logo" width="125px">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>WEB DESIGNER</p>
+                <h1>Hi,I'm <span>Venkata sai</span><br>From Hyderabad </h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sed adipisci saepe quibusdam id! Tempore 
+                        suscipit repudiandae ullam.Incidunt alias numquam enim obcaecati a quod ducimus, accusamus voluptatem architecto?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, quibusdam? Ut, quos.
+                        Molestias enim labore odit eaque Odit, 
+                        laudantium illum optio assumenda asperiores laborum quas sequi magnam rerum dolores Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Reiciendis facere accusantium odio eius dolores nulla cumque nostrum, necessitatibus corrupti aliquid similique, 
+                        quaerat dolorum ipsa! Cum soluta quia quis nesciunt corrupti.</p>
+
+
+                        <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>Java Programming</span><br>Object oriented programming</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023 - Current</span><br>UI/UX design training at Edutech Institute</li>
+                                <li><span>2022 -2023</span><br>Internship at Next24Tech pvt.Ltd</li>
+                                <li><span>2020 -2022</span><br>Object oriented programming</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span> Bachelor of Technology <br>2020 -2024</span><br> Rajiv Gandhi University 
+                                    of Knowledge and Technology</li>
+                                <li><span>Intermediate<br>2018 -2020 </span><br>Rajiv Gandhi University 
+                                    of Knowledge and Technology</li>
+                                <li><span>SSC <br>2018 </span><br>Z P H S Kamepalli</li>
+                            </ul>
+                        </div>
+                </div>
+                <div class="about-col-2">
+                    <img src="images/photo.jpeg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------services------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Reprehenderit sed animi fugiat commodi quasi modi, quibusdam, nisi assumenda ratione delectus beatae! 
+                        Mollitia aperiam repudiandae rem ipsa iure ratione praesentium necessitatibus.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Reprehenderit sed animi fugiat commodi quasi modi, quibusdam, nisi assumenda ratione delectus beatae! 
+                        Mollitia aperiam repudiandae rem ipsa iure ratione praesentium necessitatibus.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Reprehenderit sed animi fugiat commodi quasi modi, quibusdam, nisi assumenda ratione delectus beatae! 
+                        Mollitia aperiam repudiandae rem ipsa iure ratione praesentium necessitatibus.</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------Contact--------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-square-envelope"></i>  contact@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>  +91-0123456789</p>
+                    <div class="social-icons">
+                        <a href=" "><i class="fa-brands fa-facebook"></i></a>
+                        <a href=" "><i class="fa-brands fa-twitter"></i></a>
+                        <a href=" "><i class="fa-brands fa-instagram"></i></a>
+                        <a href=" "><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" class="abc"> Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form id="myform">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Messagr" placeholder="Your Message" cols="30" rows="10"></textarea>
+                        <input type="file" name="Filename" i class="fa-brands fa-dropbox"></i>
+                        <button type="submit" class="abc">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Sai.Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+    <script>
+      document.getre
+        var data= document.getElementById("myform");
+
+        console.log('data=',data);
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
